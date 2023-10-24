@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Portafolio 2.0",
+    "description": "Versión 2.0 de mi portafolio web, inspirado en el pixel art de los videojuegos. Usa efecto parallax para una presentación más novedosa. Pixel art hecho por mi mismo",
+    "image": "../../../assets/imgs/projects/portafolio.png"
+  },
+
+  {
+    "title": "Simulador",
+    "description": "lorem ipsum equisdé"
+  },
+
+  {
+    "title": "ToDo",
+    "description": "Otro ToDo de mierda más, como si no hubiera suficientes ya xd"
+  }
+]

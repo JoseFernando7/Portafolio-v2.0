@@ -1,0 +1,18 @@
+.about-me
+{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me-title
+{
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.about-me-text
+{
+  font-size: 1.3rem;
+}

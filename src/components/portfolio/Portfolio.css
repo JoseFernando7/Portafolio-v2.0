@@ -1,0 +1,30 @@
+.parallax_cover
+{
+  background-color: #14172f;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 1000px;
+  z-index: 2;
+  color: #1F51FF;
+}
+
+.portfolio-content
+{
+  /* background-color: aquamarine; */
+  margin: 3% 7%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content
+{
+  /* background-color: blueviolet; */
+  width: 55%;
+  overflow-y: scroll;
+  height: 600px;
+  padding: 4% 5%;
+}

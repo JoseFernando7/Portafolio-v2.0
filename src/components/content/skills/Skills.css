@@ -1,0 +1,30 @@
+.skills
+{
+  margin-top: 30%;
+}
+
+.skills > h2
+{
+  font-size: 2.2rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.skills-imgs
+{
+  padding: 4% 15%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  gap: 20px;
+}
+
+.skills-imgs img
+{
+  width: 70px;
+  height: 60px;
+}
+
+.skills-imgs img:hover
+{
+  filter: drop-shadow(0 0 0.3rem aquamarine);
+}

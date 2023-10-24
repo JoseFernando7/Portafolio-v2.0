@@ -1,0 +1,29 @@
+.project-list
+{
+  display: flex;
+  justify-content: right;
+  transition: transform 0.3s; /* Agrega una transición para la animación */
+}
+
+.project-list.slide
+{
+  /* right: 0; Muestra el modal desplazándolo desde la derecha */
+  transform: translateX(-115%); /* Muestra el modal sin desplazar la lista */
+}
+
+.project-list-element
+{
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  transition: all .5s ease;
+}
+
+.project-list-element:hover
+{
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+}

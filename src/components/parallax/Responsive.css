@@ -1,0 +1,38 @@
+/* ---------------- Responsive --------------*/
+@media screen and (max-width: 1643px) 
+{
+  .parallax_name
+  {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+  }
+
+  .parallax_layer_0
+  {
+    position: absolute;
+    top: -1150px;
+    transform: translateZ(-150px) scale(1.6);
+  }
+
+  .parallax_layer_1
+  {
+    position: absolute;
+    top: -750px;
+    transform: translateZ(-100px) scale(1.5);
+  }
+
+  .parallax_layer_2
+  {
+    position: absolute;
+    top: -1800px;
+    transform: translateZ(-50px) scale(1.15);
+  }
+
+  .parallax_layer_3
+  {
+    position: absolute;
+    top: 690px;
+    transform: translateZ(0px) scale(0.75);
+  }
+}

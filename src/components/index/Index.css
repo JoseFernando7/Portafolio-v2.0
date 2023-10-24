@@ -1,0 +1,27 @@
+.index
+{
+  /* background-color: blueviolet; */
+  width: 40%;
+  font-family: sans-serif;
+}
+
+.index-title, .index-list
+{
+  margin-left: 25%;
+}
+
+.index-title
+{
+  font-size: 2.5rem;
+}
+
+.index-list
+{
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.index-list > li
+{
+  padding: 15px;
+}
