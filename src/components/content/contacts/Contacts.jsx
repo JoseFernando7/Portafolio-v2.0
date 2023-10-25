@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './Contacts.css'
+
 function Contacts () {
   return (
     <>
-      <section className='skills'>
+      <section className='skills contacts'>
         <h2> Contactos </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt omnis quis tempore! Quam et atque sed enim architecto a minus, dolorem voluptate nam id natus quibusdam laborum, fugit cupiditate.

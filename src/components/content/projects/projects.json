@@ -2,16 +2,56 @@
   {
     "title": "Portafolio 2.0",
     "description": "Versión 2.0 de mi portafolio web, inspirado en el pixel art de los videojuegos. Usa efecto parallax para una presentación más novedosa. Pixel art hecho por mi mismo",
-    "image": "../../../assets/imgs/projects/portafolio.png"
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/portafolio.png?raw=true",
+    "url": "https://github.com/JoseFernando7/Portafolio-v2.0"
   },
 
   {
-    "title": "Simulador",
-    "description": "lorem ipsum equisdé"
+    "title": "Tetris C++",
+    "description": "El clásico juego de Tetris hecho en C++ con SFML, con interfaz gráfica. De único juego.",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/tetris.png?raw=true",
+    "url": "https://github.com/JoseFernando7/tetrisGame"
   },
 
   {
-    "title": "ToDo",
-    "description": "Otro ToDo de mierda más, como si no hubiera suficientes ya xd"
+    "title": "App de medidas",
+    "description": "Aplicación para administrar medidas de prendas de ropa, ideal para talleres de costura. Hecha con flutter y hive como base de datos local",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/medidas.jpeg?raw=true",
+    "url": "https://github.com/JoseFernando7/measure_flutter_app"
+  },
+
+  {
+    "title": "Facebook login",
+    "description": "Página de inicio de sesión tipo facebook. Utiliza express y bases de datos no relacionales para almacenar la información de los usuarios registrados.",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/facebook.png?raw=true",
+    "url": "https://github.com/JoseFernando7/Facebook_login"
+  },
+
+  {
+    "title": "Juego ahorcado",
+    "description": "Clásico juego del ahorcado hecho con Angular. 35 palabras de dificultad aleatoria y 7 vidas para intentar no quedar ahorcado.",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/ahorcado.png?raw=true",
+    "url": "https://github.com/JoseFernando7/Hangman-game"
+  },
+
+  {
+    "title": "ToDo React",
+    "description": "App web de tareas pendientes (ToDo) que permite crear tareas seleccionarlas como realizadas y eliminarlas. Hecho con React como práctica de los hooks.",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/todo.png?raw=true",
+    "url": "https://github.com/JoseFernando7/todo-react-app"
+  },
+
+  {
+    "title": "Laberinto IA",
+    "description": "Proyecto de universidad que consiste en que Pinocho debe buscar a Geppeto por medio de las búsquedas por amplitud, profundidad y costo uniforme. Contiene algunos bugs.",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/ia.png?raw=true",
+    "url": "https://github.com/JoseFernando7/proyecto-ia"
+  },
+
+  {
+    "title": "Buscaminas",
+    "description": "El clásico juego de buscaminas realizado con python y tkinter.",
+    "image": "https://github.com/JoseFernando7/portfolio-imgs/blob/main/buscaminas.png?raw=true",
+    "url": "https://github.com/JoseFernando7/fccMineSweeper"
   }
 ]

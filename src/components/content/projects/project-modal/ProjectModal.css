@@ -1,7 +1,7 @@
 .modal-container
 {
   position: fixed;
-  top: -400%;
+  top: -1350%;
   right: -120%;
   display: flex;
   align-items: center;
@@ -11,9 +11,13 @@
 
 .modal
 {
-  background-color: #fff;
-  width: 700px;
-  height: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #1F51FF;
+  border-radius: 10px;
+  width: 650px;
+  height: fit-content;
+  padding: 2% 5%;
+  box-shadow: 0 0 3rem 0.2rem #1F51FF;
 }
 
 .modal-div {
@@ -26,7 +30,7 @@
 
 .modal-div.show {
   right: 0; /* Muestra el modal desplazándolo desde la derecha */
-  transform: translateX(-100%); /* Muestra el modal sin desplazar la lista */
+  transform: translateX(-102%); /* Muestra el modal sin desplazar la lista */
 }
 
 .modal-div.hide {
@@ -40,4 +44,31 @@
   right: 10px;
   cursor: pointer;
   font-size: 20px;
+}
+
+.project-img
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.project-img img
+{
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.project-title
+{
+  font-family: sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.project-description
+{
+  font-family: sans-serif;
 }
