@@ -16,21 +16,21 @@ import './Skills.css'
 function Skills () {
   return (
     <>
-      <section className='skills'>
-        <h2> Mis Skills </h2>
+      <section className='skills skill-section' id='skills'>
+        <h2 className='section-title'> Mis Habilidades </h2>
         <div className='skills-imgs'>
-          <img src={SpringBoot} alt='SpringBoot' />
-          <img src={JavaScript} alt='JavaScript' />
-          <img src={React} alt='React' />
-          <img src={Java} alt='Java' />
-          <img src={Css} alt='Css' />
-          <img src={Html} alt='Html' />
-          <img src={Python} alt='Python' />
-          <img src={Angular} alt='Angular' />
-          <img src={Cpp} alt='Cpp' />
-          <img src={Mongo} alt='Mongo' />
-          <img src={Postgres} alt='Postgres' />
-          <img src={MySql} alt='MySql' />
+          <img src={SpringBoot} alt='SpringBoot' title='SpringBoot' />
+          <img src={JavaScript} alt='JavaScript' title='JavaScript' />
+          <img src={React} alt='React' title='Ract' />
+          <img src={Java} alt='Java' title='Java' />
+          <img src={Css} alt='Css' title='CSS' />
+          <img src={Html} alt='Html' title='HTML' />
+          <img src={Python} alt='Python' title='Python' />
+          <img src={Angular} alt='Angular' title='Angular' />
+          <img src={Cpp} alt='Cpp' title='C++' />
+          <img src={Mongo} alt='Mongo' title='Mongo' />
+          <img src={Postgres} alt='Postgres' title='Postgresql' />
+          <img src={MySql} alt='MySql' title='MySql' />
         </div>
       </section>
     </>

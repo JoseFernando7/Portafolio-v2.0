@@ -6,16 +6,16 @@ import Skills from '../content/skills/Skills'
 import Index from '../index/Index'
 
 import './Portfolio.css'
+import './Responsive.css'
 
 function Portfolio () {
   return (
     <>
       <div className='parallax_cover'>
-        <img src={Grave} alt='Grave' />
+        <img src={Grave} alt='Grave' className='grave' />
 
         <div className='portfolio-content'>
           <Index />
-
           <main className='main-content'>
             <AboutMe />
             <Skills />

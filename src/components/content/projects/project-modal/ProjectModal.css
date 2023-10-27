@@ -22,9 +22,7 @@
 
 .modal-div {
   width: 80%; /* Ancho del modal */
-  /* background: white; */
   padding: 20px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
   transition: transform 0.3s; /* Agrega una transición para la animación */
 }
 

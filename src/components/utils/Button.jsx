@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import GitHub from '../assets/imgs/logos/GitHub.png'
+import GitHubBtn from '../../assets/imgs/logos/GitHubBtn.png'
 
 import './Button.css'
 
@@ -18,7 +18,7 @@ function Button ({ url }) {
           <span />
           <span />
           Ver repositorio
-          <img src={GitHub} alt='GitHub logo' />
+          <img src={GitHubBtn} alt='GitHub logo' />
         </a>
       </div>
     </>

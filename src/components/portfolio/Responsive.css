@@ -1,0 +1,131 @@
+/* ---------------- Responsive --------------*/
+@media screen and (max-width: 1643px) 
+{
+  /*-------- Cover -------*/
+  .parallax_cover
+  {
+    height: 680px;
+  }
+
+  .grave
+  {
+    position: absolute;
+    top: -25px;
+    transform: scale(0.75);
+  }
+
+  /*-------- Portfolio content -------*/
+  .portfolio-content
+  {
+    margin: 10% 5% 0 25%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-content
+  {
+    width: 50%;
+    overflow-y: scroll;
+    height: 450px;
+    padding: 4%;
+  }
+
+  /*-------- About me section -------*/
+  .about-me-title
+  {
+    font-size: 1.7rem;
+  }
+
+  .about-me-text
+  {
+    font-size: 1.1rem;
+  }
+
+  /*-------- Skills section -------*/
+  .skill-section
+  {
+    padding-top: 8%;
+  }
+
+  .skills > h2
+  {
+    font-size: 1.7rem;
+  }
+  
+  .skills-imgs
+  {
+    margin-right: 10%;
+    padding: 4% 15%;
+    gap: 20px;
+  }
+
+  .skills-imgs img
+  {
+    width: 50px;
+    height: 45px;
+  }
+
+  /*-------- Project section -------*/
+  .project-list-element
+  {
+    font-size: 1.6rem;
+  }
+
+  .project-list-element:hover
+  {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .modal-container
+  {
+    top: -1250%;
+    right: -130%;
+  }
+
+  .modal
+  {
+    width: 500px;
+    padding: 1% 5%;
+  }
+
+  .project-img img
+  {
+    width: 200px;
+    height: 100px;
+  }
+
+  .project-title
+  {
+    font-size: 1.3rem;
+  }
+
+  /*-------- Contact section -------*/
+  .contact-icons
+  {
+    margin-right: 10%;
+  }
+
+  .contact-list img
+  {
+    width: 50px;
+  }
+
+  /*-------- Index section -------*/
+  .index
+  {
+    width: 40%;
+    font-family: sans-serif;
+  }
+
+  .index-title
+  {
+    font-size: 2rem;
+  }
+
+  .index-list
+  {
+    font-size: 1.5rem;
+  }
+}

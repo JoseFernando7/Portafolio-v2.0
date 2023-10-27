@@ -20,8 +20,8 @@ function Projects () {
 
   return (
     <>
-      <section className='skills'>
-        <h2> Mis Proyectos </h2>
+      <section className='skills' id='projects'>
+        <h2 className='section-title'> Mis Proyectos </h2>
 
         {Data.map((project) => {
           return (

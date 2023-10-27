@@ -10,6 +10,7 @@
 {
   text-align: center;
   font-size: 2.2rem;
+  filter: drop-shadow(0 0 0.5rem #1F51FF);
 }
 
 .about-me-text

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import './ProjectModal.css'
-import Button from '../../../../utils/Button'
+import Button from '../../../utils/Button'
 
 function ProjectModal ({ project, onClose }) {
   ProjectModal.propTypes = {

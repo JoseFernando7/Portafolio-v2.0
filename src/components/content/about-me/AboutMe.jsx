@@ -3,11 +3,10 @@ import './AboutMe.css'
 function AboutMe () {
   return (
     <>
-      <section className='about-me'>
+      <section className='about-me' id='aboutMe'>
         <h2 className='about-me-title'> Sobre mi </h2>
         <p className='about-me-text'>
-          Mi nombre es Jose Fernando Restrepo Sanchez soy de Colombia y soy programador, me gusta programar apps y páginas web, tengo un gran conocimiento en inglés, me apasiona aprender muchas cosas nuevas sobre informática. En este momento estoy estudiando Ingeniería en Sistemas en la Universidad del Valle, y gracias a eso he aprendido muchas cosas además de la informática y la programación.
-          Gracias por visitar mi página, por favor, siéntete libre de ver mis proyectos y todo lo que tengo para ofecerte, BIENVENIDO.
+          Mi nombre es Jose Fernando Restrepo Sanchez y soy de Colombia. Soy un apasionado programador con más de tres años de experiencia personal en el desarrollo de software. He trabajado en una variedad de proyectos, desde aplicaciones móviles hasta sistemas web. Mi compromiso con la excelencia técnica se refleja en mi capacidad para aprender rápidamente nuevas tecnologías. Disfruto colaborando con equipos interdisciplinarios y estoy constantemente buscando maneras de mejorar mis habilidades y mantenerme al día con las últimas tendencias en el mundo de la programación.
         </p>
       </section>
     </>

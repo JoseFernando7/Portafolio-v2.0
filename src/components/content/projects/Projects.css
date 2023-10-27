@@ -7,7 +7,6 @@
 
 .project-list.slide
 {
-  /* right: 0; Muestra el modal desplazándolo desde la derecha */
   transform: translateX(-115%); /* Muestra el modal sin desplazar la lista */
 }
 
