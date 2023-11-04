@@ -10,7 +10,7 @@
   .grave
   {
     position: absolute;
-    top: -25px;
+    /* top: -25px; */
     transform: scale(0.75);
   }
 

@@ -32,7 +32,7 @@
   .parallax_layer_3
   {
     position: absolute;
-    top: 690px;
+    top: 650px;
     transform: translateZ(0px) scale(0.75);
   }
 }

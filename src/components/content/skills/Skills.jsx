@@ -32,6 +32,13 @@ function Skills () {
           <img src={Postgres} alt='Postgres' title='Postgresql' />
           <img src={MySql} alt='MySql' title='MySql' />
         </div>
+
+        <div className='certificate-container'>
+          <h4 className='certificate'>
+            Inglés nivel C1 según el test EF Set. Puedes verlo
+            <a href='https://drive.google.com/file/d/1W0HRx2WE_xmxXktuET5FSK_p_OMuZrP9/view?usp=sharing' target='_blank' rel='noreferrer'> aquí </a>
+          </h4>
+        </div>
       </section>
     </>
   )

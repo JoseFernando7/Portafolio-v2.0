@@ -28,3 +28,21 @@
 {
   filter: drop-shadow(0 0 0.3rem aquamarine);
 }
+
+.certificate-container
+{
+  width: 100%;
+}
+
+.certificate
+{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.certificate a
+{
+  text-decoration: none;
+  color: #fff;
+}

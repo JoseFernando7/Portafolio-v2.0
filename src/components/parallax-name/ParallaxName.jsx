@@ -20,7 +20,7 @@ function ParallaxName () {
       }, 6000)
 
       setTimeout(() => {
-        setDisplayText('Desarrollador de Videojuegos (algún día) ')
+        setDisplayText('Desarrollador de Videojuegos ')
       }, 9000)
     }
 

@@ -6,9 +6,10 @@
   top: 100%;
   left: 0;
   right: 0;
-  height: 1000px;
+  height: 960px;
   z-index: 2;
-  color: #1F51FF;
+  /* color: #1F51FF; */
+  color: #fff;
 }
 
 .portfolio-content
